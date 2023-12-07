@@ -9,7 +9,11 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <slot name="modalBody"></slot>
+          <slot name="modalBody">
+            <p>Use <code>Modal.getOrCreateInstance('#modalId').show() or .hide()</code> to trigger via an @onclick
+              function</p>
+            <p>Remember to import the required <code>Modal</code> bootstrap modules</p>
+          </slot>
         </div>
         <div class="modal-footer">
           <slot name="modalFooter">

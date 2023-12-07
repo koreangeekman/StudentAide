@@ -11,12 +11,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto">
-        <!-- <li>
+        <li>
           <router-link :to="{ name: 'Shortcuts' }" class="btn text-success lighten-30 selectable text-uppercase">
             Shortcuts
           </router-link>
         </li>
-        <li>
+        <!-- <li>
           <router-link :to="{ name: 'Acronyms' }" class="btn text-success lighten-30 selectable text-uppercase">
             Acronyms
           </router-link>
