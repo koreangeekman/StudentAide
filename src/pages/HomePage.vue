@@ -2,7 +2,8 @@
   <div class="container-fluid">
     <section class="row justify-content-center">
       <div class="col-6 text-center py-5">
-        ...
+        <p class="">Getting started</p>
+        <p class=""></p>
       </div>
     </section>
   </div>
